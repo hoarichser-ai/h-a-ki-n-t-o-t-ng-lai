@@ -72,7 +72,7 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Hòa — Kết nối con người, kiến tạo tổ chức bền vững" },
+      { title: "Kết nối con người, kiến tạo tổ chức bền vững" },
       {
         name: "description",
         content:
@@ -81,6 +81,13 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { property: "og:type", content: "website" },
       { property: "og:site_name", content: "Hòa" },
       { name: "twitter:card", content: "summary_large_image" },
+      { property: "og:title", content: "Kết nối con người, kiến tạo tổ chức bền vững" },
+      { name: "twitter:title", content: "Kết nối con người, kiến tạo tổ chức bền vững" },
+      { name: "description", content: "A premium personal brand website for Hòa, a recruitment strategist, human development mentor, and talent connector." },
+      { property: "og:description", content: "A premium personal brand website for Hòa, a recruitment strategist, human development mentor, and talent connector." },
+      { name: "twitter:description", content: "A premium personal brand website for Hòa, a recruitment strategist, human development mentor, and talent connector." },
+      { property: "og:image", content: "https://storage.googleapis.com/gpt-engineer-file-uploads/c3e3av76wCZVEVTVafUj4rryYIU2/social-images/social-1779978175240-hero-portrait.webp" },
+      { name: "twitter:image", content: "https://storage.googleapis.com/gpt-engineer-file-uploads/c3e3av76wCZVEVTVafUj4rryYIU2/social-images/social-1779978175240-hero-portrait.webp" },
     ],
     links: [
       { rel: "stylesheet", href: appCss },

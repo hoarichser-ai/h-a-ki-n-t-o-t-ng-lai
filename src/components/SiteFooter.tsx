@@ -6,7 +6,7 @@ export function SiteFooter() {
       <div className="container-editorial py-20">
         <div className="grid gap-12 md:grid-cols-12">
           <div className="md:col-span-6">
-            <div className="font-display text-3xl tracking-[0.25em] text-ivory">HÒA</div>
+            <div className="font-display text-3xl tracking-[0.25em] text-ivory">HÒAn</div>
             <p className="mt-6 max-w-md text-sm leading-relaxed text-muted-foreground">
               Kết nối đúng người. Kiến tạo tổ chức bền vững.
               Đồng hành cùng những hành trình phát triển sâu sắc.

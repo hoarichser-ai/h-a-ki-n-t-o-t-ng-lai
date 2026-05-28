@@ -13,7 +13,7 @@ export const Route = createFileRoute("/ung-vien")({
       {
         name: "description",
         content:
-          "Hòa đồng hành cùng bạn trên hành trình phát triển sự nghiệp và bản thân — tìm môi trường phù hợp để sống với giá trị của bạn.",
+          "Hòan đồng hành cùng bạn trên hành trình phát triển sự nghiệp và bản thân — tìm môi trường phù hợp để sống với giá trị của bạn.",
       },
       { property: "og:title", content: "Ứng viên — Tìm môi trường để phát huy năng lực" },
       {
@@ -29,7 +29,7 @@ export const Route = createFileRoute("/ung-vien")({
 const VALUES = [
   { t: "Định hướng sự nghiệp rõ ràng", d: "Hiểu rõ năng lực, giá trị và điểm mạnh để chọn con đường phù hợp." },
   { t: "Kỹ năng & tư duy để phát triển", d: "Mở rộng năng lực lãnh đạo bản thân và tư duy chiến lược dài hạn." },
-  { t: "Cơ hội làm việc chất lượng", d: "Tiếp cận môi trường được Hòa chọn lọc — phù hợp với giai đoạn của bạn." },
+  { t: "Cơ hội làm việc chất lượng", d: "Tiếp cận môi trường được Hòan chọn lọc — phù hợp với giai đoạn của bạn." },
   { t: "Mentor 1-1 & đồng hành sâu", d: "Một người đồng hành đủ sâu để giúp bạn vượt qua những khúc quanh nghề nghiệp." },
 ];
 
@@ -72,7 +72,7 @@ function CandidatePage() {
             </RevealOnScroll>
             <RevealOnScroll delay={300}>
               <p className="mt-10 max-w-xl text-base lg:text-lg leading-relaxed text-muted-foreground">
-                Hòa đồng hành cùng bạn trên hành trình phát triển sự nghiệp
+                Hòan đồng hành cùng bạn trên hành trình phát triển sự nghiệp
                 và bản thân — không vội vã, không hời hợt.
               </p>
             </RevealOnScroll>
@@ -83,7 +83,7 @@ function CandidatePage() {
       {/* VALUES */}
       <section className="py-24 lg:py-32">
         <div className="container-editorial">
-          <SectionHeading eyebrow="Đồng hành cùng Hòa" title="Bạn sẽ nhận được gì?" />
+          <SectionHeading eyebrow="Đồng hành cùng Hòan" title="Bạn sẽ nhận được gì?" />
           <div className="mt-16 grid sm:grid-cols-2 lg:grid-cols-4 gap-6 lg:gap-8">
             {VALUES.map((v, i) => (
               <RevealOnScroll key={v.t} delay={i * 100}>
@@ -133,7 +133,7 @@ function CandidatePage() {
             <div className="relative aspect-[5/4] overflow-hidden vignette">
               <img
                 src={community}
-                alt="Cộng đồng phát triển cùng Hòa"
+                alt="Cộng đồng phát triển cùng Hòan"
                 loading="lazy"
                 className="absolute inset-0 h-full w-full object-cover"
               />
@@ -193,7 +193,7 @@ function CandidatePage() {
             <h2 className="font-display text-3xl md:text-4xl lg:text-5xl leading-[1.2] text-ivory">
               Sẵn sàng cho chương mới trong sự nghiệp?
               <br />
-              <span className="italic text-gold-soft">Hãy chia sẻ hành trình của bạn với Hòa.</span>
+              <span className="italic text-gold-soft">Hãy chia sẻ hành trình của bạn với Hòan.</span>
             </h2>
             <Link
               to="/cau-chuyen"

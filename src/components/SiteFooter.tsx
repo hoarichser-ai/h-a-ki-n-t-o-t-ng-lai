@@ -6,7 +6,7 @@ export function SiteFooter() {
       <div className="container-editorial py-20">
         <div className="grid gap-12 md:grid-cols-12">
           <div className="md:col-span-6">
-            <div className="font-display text-3xl tracking-[0.25em] text-ivory">HÒAn</div>
+            <div className="font-display text-3xl tracking-[0.25em] text-ivory">HÒAnn</div>
             <p className="mt-6 max-w-md text-sm leading-relaxed text-muted-foreground">
               Kết nối đúng người. Kiến tạo tổ chức bền vững.
               Đồng hành cùng những hành trình phát triển sâu sắc.
@@ -35,7 +35,7 @@ export function SiteFooter() {
 
         <div className="mt-16 hairline" />
         <div className="mt-8 flex flex-col md:flex-row items-start md:items-center justify-between gap-4 text-xs text-muted-foreground">
-          <p>© {new Date().getFullYear()} Hòa. Bảo lưu mọi quyền.</p>
+          <p>© {new Date().getFullYear()} Hòan. Bảo lưu mọi quyền.</p>
           <p className="italic">"Kết nối đúng người sẽ thay đổi tương lai của tổ chức."</p>
         </div>
       </div>

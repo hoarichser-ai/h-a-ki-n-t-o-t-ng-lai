@@ -11,13 +11,13 @@ import s3 from "@/assets/story-3.jpg";
 export const Route = createFileRoute("/doanh-nghiep")({
   head: () => ({
     meta: [
-      { title: "Doanh nghiệp — Hòa đồng hành cùng tổ chức & lãnh đạo" },
+      { title: "Doanh nghiệp — Hòan đồng hành cùng tổ chức & lãnh đạo" },
       {
         name: "description",
         content:
-          "Hòa đồng hành cùng lãnh đạo xây hệ thống, phát triển đội ngũ và kiến tạo văn hoá hiệu quả — giải bài toán con người cho tổ chức bền vững.",
+          "Hòan đồng hành cùng lãnh đạo xây hệ thống, phát triển đội ngũ và kiến tạo văn hoá hiệu quả — giải bài toán con người cho tổ chức bền vững.",
       },
-      { property: "og:title", content: "Doanh nghiệp — Hòa đồng hành cùng tổ chức & lãnh đạo" },
+      { property: "og:title", content: "Doanh nghiệp — Hòan đồng hành cùng tổ chức & lãnh đạo" },
       {
         property: "og:description",
         content: "Chiến lược tuyển dụng, phát triển đội ngũ và mentoring lãnh đạo.",
@@ -117,7 +117,7 @@ function BusinessPage() {
             </RevealOnScroll>
             <RevealOnScroll delay={300}>
               <p className="mt-10 max-w-2xl text-base lg:text-lg leading-relaxed text-muted-foreground">
-                Không chỉ tuyển người. Hòa đồng hành cùng lãnh đạo xây hệ thống,
+                Không chỉ tuyển người. Hòan đồng hành cùng lãnh đạo xây hệ thống,
                 phát triển đội ngũ và kiến tạo văn hoá hiệu quả.
               </p>
             </RevealOnScroll>
@@ -146,7 +146,7 @@ function BusinessPage() {
         </div>
       </section>
 
-      {/* HÒA'S PERSPECTIVE */}
+      {/* HÒAn'S PERSPECTIVE */}
       <section className="py-24 lg:py-32 bg-surface/40">
         <div className="container-editorial">
           <SectionHeading
@@ -172,7 +172,7 @@ function BusinessPage() {
         <div className="container-editorial">
           <SectionHeading
             eyebrow="Đồng hành"
-            title="Những cách Hòa thường đồng hành cùng doanh nghiệp"
+            title="Những cách Hòan thường đồng hành cùng doanh nghiệp"
           />
           <div className="mt-16 max-w-4xl mx-auto">
             {COLLABORATIONS.map((c, i) => (
@@ -261,13 +261,13 @@ function BusinessPage() {
             <h2 className="font-display text-3xl md:text-4xl lg:text-5xl leading-[1.2] text-ivory">
               Nếu bạn đang tìm đúng người để cùng xây điều lớn hơn,
               <br />
-              <span className="italic text-gold-soft">hãy chia sẻ bài toán của bạn với Hòa.</span>
+              <span className="italic text-gold-soft">hãy chia sẻ bài toán của bạn với Hòan.</span>
             </h2>
             <Link
               to="/cau-chuyen"
               className="mt-12 inline-flex items-center gap-3 border border-gold px-8 py-4 text-xs tracking-[0.22em] uppercase text-gold hover:bg-gold hover:text-primary-foreground transition-all duration-500"
             >
-              Kết nối cùng Hòa
+              Kết nối cùng Hòan
               <ArrowRight size={14} />
             </Link>
           </RevealOnScroll>

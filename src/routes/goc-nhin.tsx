@@ -11,12 +11,12 @@ export const Route = createFileRoute("/goc-nhin")({
       {
         name: "description",
         content:
-          "Những suy ngẫm, quan sát và trải nghiệm về con người, tổ chức, lãnh đạo và sự phát triển bền vững từ Hòa.",
+          "Những suy ngẫm, quan sát và trải nghiệm về con người, tổ chức, lãnh đạo và sự phát triển bền vững từ Hòan.",
       },
       { property: "og:title", content: "Góc nhìn — Suy ngẫm về con người và tổ chức" },
       {
         property: "og:description",
-        content: "Tủ sách điện tử của Hòa về lãnh đạo, tuyển dụng và phát triển con người.",
+        content: "Tủ sách điện tử của Hòan về lãnh đạo, tuyển dụng và phát triển con người.",
       },
     ],
   }),
@@ -40,7 +40,7 @@ function ReflectionsPage() {
             </h1>
             <p className="mt-8 max-w-2xl text-base lg:text-lg leading-relaxed text-muted-foreground">
               Những suy ngẫm, quan sát và trải nghiệm về con người,
-              tổ chức và sự phát triển — viết bởi Hòa.
+              tổ chức và sự phát triển — viết bởi Hòan.
             </p>
           </RevealOnScroll>
         </div>

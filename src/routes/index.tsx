@@ -9,13 +9,13 @@ import { reflections } from "@/content/reflections";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "Hòa — Kết nối con người, kiến tạo tổ chức bền vững" },
+      { title: "Hòan — Kết nối con người, kiến tạo tổ chức bền vững" },
       {
         name: "description",
         content:
-          "Hòa đồng hành cùng doanh nghiệp và ứng viên trên hành trình phát triển bền vững — kết nối đúng người, kiến tạo môi trường đúng.",
+          "Hòan đồng hành cùng doanh nghiệp và ứng viên trên hành trình phát triển bền vững — kết nối đúng người, kiến tạo môi trường đúng.",
       },
-      { property: "og:title", content: "Hòa — Kết nối con người, kiến tạo tổ chức bền vững" },
+      { property: "og:title", content: "Hòan — Kết nối con người, kiến tạo tổ chức bền vững" },
       {
         property: "og:description",
         content: "Recruitment Strategist & Human Development Mentor.",
@@ -55,7 +55,7 @@ function HomePage() {
 
             <RevealOnScroll delay={300}>
               <p className="mt-10 max-w-xl text-base lg:text-lg leading-relaxed text-muted-foreground">
-                Hòa đồng hành cùng doanh nghiệp và ứng viên trên hành trình
+                Hòan đồng hành cùng doanh nghiệp và ứng viên trên hành trình
                 phát triển bền vững — tìm đúng người, đúng môi trường,
                 đúng thời điểm.
               </p>
@@ -64,7 +64,7 @@ function HomePage() {
             <RevealOnScroll delay={450}>
               <div className="mt-12 flex items-end gap-6">
                 <div>
-                  <div className="font-display text-4xl italic text-gold">Hòa</div>
+                  <div className="font-display text-4xl italic text-gold">Hòan</div>
                   <div className="mt-2 text-xs tracking-[0.2em] uppercase text-muted-foreground">
                     Recruitment Strategist
                     <span className="mx-2 text-gold/60">·</span>
@@ -80,7 +80,7 @@ function HomePage() {
               <div className="relative aspect-[4/5] overflow-hidden vignette">
                 <img
                   src={heroPortrait}
-                  alt="Chân dung Hòa — Recruitment Strategist & Human Development Mentor"
+                  alt="Chân dung Hòan — Recruitment Strategist & Human Development Mentor"
                   className="absolute inset-0 h-full w-full object-cover"
                   width={1024}
                   height={1280}
@@ -248,7 +248,7 @@ function HomePage() {
               to="/doanh-nghiep"
               className="mt-12 inline-flex items-center gap-3 border border-gold px-8 py-4 text-xs tracking-[0.22em] uppercase text-gold hover:bg-gold hover:text-primary-foreground transition-all duration-500"
             >
-              Bắt đầu kết nối cùng Hòa
+              Bắt đầu kết nối cùng Hòan
               <ArrowRight size={14} />
             </Link>
           </RevealOnScroll>

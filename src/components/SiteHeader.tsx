@@ -42,7 +42,7 @@ export function SiteHeader() {
           className="font-display text-2xl tracking-[0.3em] text-ivory hover:text-gold transition-colors"
           onClick={() => setOpen(false)}
         >
-          HÒA
+          HÒAn
         </Link>
 
         <nav className="hidden lg:flex items-center gap-10">
@@ -63,7 +63,7 @@ export function SiteHeader() {
           to="/doanh-nghiep"
           className="hidden lg:inline-flex items-center gap-2 border border-gold/60 px-5 py-2.5 text-xs tracking-[0.18em] uppercase text-gold hover:bg-gold hover:text-primary-foreground transition-all duration-500"
         >
-          Đồng hành cùng Hòa
+          Đồng hành cùng Hòan
         </Link>
 
         <button
@@ -97,7 +97,7 @@ export function SiteHeader() {
             onClick={() => setOpen(false)}
             className="mt-6 inline-flex w-fit items-center gap-2 border border-gold/60 px-5 py-3 text-xs tracking-[0.18em] uppercase text-gold"
           >
-            Đồng hành cùng Hòa
+            Đồng hành cùng Hòan
           </Link>
         </nav>
       </div>

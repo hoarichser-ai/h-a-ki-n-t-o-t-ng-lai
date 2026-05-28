@@ -13,7 +13,7 @@ export const Route = createFileRoute("/cau-chuyen")({
       {
         name: "description",
         content:
-          "Những câu chuyện thật về chuyển hoá tổ chức, hành trình lãnh đạo và sự phát triển con người mà Hòa đã đồng hành.",
+          "Những câu chuyện thật về chuyển hoá tổ chức, hành trình lãnh đạo và sự phát triển con người mà Hòan đã đồng hành.",
       },
       { property: "og:title", content: "Câu chuyện — Những hành trình được đồng hành" },
       {
@@ -39,7 +39,7 @@ const STORIES = [
     tag: "Doanh nghiệp bán lẻ · 800 nhân sự",
     title: "Xây lớp lãnh đạo kế cận từ bên trong.",
     body:
-      "Thay vì tìm kiếm bên ngoài, Hòa cùng ban lãnh đạo nhìn lại đội ngũ hiện hữu — và phát hiện ra rằng 70% nhân tài cần thiết đã ở sẵn trong tổ chức, chỉ thiếu một con đường để phát triển. 18 tháng sau, văn hoá ‘phát triển từ bên trong’ trở thành lợi thế cạnh tranh thật sự.",
+      "Thay vì tìm kiếm bên ngoài, Hòan cùng ban lãnh đạo nhìn lại đội ngũ hiện hữu — và phát hiện ra rằng 70% nhân tài cần thiết đã ở sẵn trong tổ chức, chỉ thiếu một con đường để phát triển. 18 tháng sau, văn hoá ‘phát triển từ bên trong’ trở thành lợi thế cạnh tranh thật sự.",
   },
   {
     image: s3,
@@ -117,7 +117,7 @@ function StoriesPage() {
               <span className="italic text-gold-soft">một cuộc trò chuyện thật.</span>
             </h2>
             <a
-              href="mailto:hello@hoa.com"
+              href="mailto:hello@hoan.com"
               className="mt-12 inline-flex items-center gap-3 border border-gold px-8 py-4 text-xs tracking-[0.22em] uppercase text-gold hover:bg-gold hover:text-primary-foreground transition-all duration-500"
             >
               Bắt đầu câu chuyện của bạn

@@ -26,7 +26,7 @@ export function SiteFooter() {
           <div className="md:col-span-3">
             <div className="eyebrow mb-5">Kết nối</div>
             <ul className="space-y-3 text-sm text-ivory/80">
-              <li><a href="mailto:hello@hoa.com" className="hover:text-gold transition-colors">hello@hoa.com</a></li>
+              <li><a href="mailto:hello@hoan.com" className="hover:text-gold transition-colors">hello@hoan.com</a></li>
               <li><a href="https://linkedin.com" className="hover:text-gold transition-colors">LinkedIn</a></li>
               <li className="text-muted-foreground">Hà Nội · TP. Hồ Chí Minh</li>
             </ul>

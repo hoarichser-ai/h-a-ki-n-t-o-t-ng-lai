@@ -117,7 +117,7 @@ function StoriesPage() {
               <span className="italic text-gold-soft">một cuộc trò chuyện thật.</span>
             </h2>
             <a
-              href="mailto:hello@hoa.com"
+              href="mailto:hello@hoan.com"
               className="mt-12 inline-flex items-center gap-3 border border-gold px-8 py-4 text-xs tracking-[0.22em] uppercase text-gold hover:bg-gold hover:text-primary-foreground transition-all duration-500"
             >
               Bắt đầu câu chuyện của bạn

@@ -9,8 +9,32 @@
 // Additionally, you should also exclude this file from your linter and/or formatter to prevent it from being checked or modified.
 
 import { Route as rootRouteImport } from './routes/__root'
+import { Route as UngVienRouteImport } from './routes/ung-vien'
+import { Route as GocNhinRouteImport } from './routes/goc-nhin'
+import { Route as DoanhNghiepRouteImport } from './routes/doanh-nghiep'
+import { Route as CauChuyenRouteImport } from './routes/cau-chuyen'
 import { Route as IndexRouteImport } from './routes/index'
 
+const UngVienRoute = UngVienRouteImport.update({
+  id: '/ung-vien',
+  path: '/ung-vien',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const GocNhinRoute = GocNhinRouteImport.update({
+  id: '/goc-nhin',
+  path: '/goc-nhin',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const DoanhNghiepRoute = DoanhNghiepRouteImport.update({
+  id: '/doanh-nghiep',
+  path: '/doanh-nghiep',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const CauChuyenRoute = CauChuyenRouteImport.update({
+  id: '/cau-chuyen',
+  path: '/cau-chuyen',
+  getParentRoute: () => rootRouteImport,
+} as any)
 const IndexRoute = IndexRouteImport.update({
   id: '/',
   path: '/',
@@ -19,28 +43,78 @@ const IndexRoute = IndexRouteImport.update({
 
 export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
+  '/cau-chuyen': typeof CauChuyenRoute
+  '/doanh-nghiep': typeof DoanhNghiepRoute
+  '/goc-nhin': typeof GocNhinRoute
+  '/ung-vien': typeof UngVienRoute
 }
 export interface FileRoutesByTo {
   '/': typeof IndexRoute
+  '/cau-chuyen': typeof CauChuyenRoute
+  '/doanh-nghiep': typeof DoanhNghiepRoute
+  '/goc-nhin': typeof GocNhinRoute
+  '/ung-vien': typeof UngVienRoute
 }
 export interface FileRoutesById {
   __root__: typeof rootRouteImport
   '/': typeof IndexRoute
+  '/cau-chuyen': typeof CauChuyenRoute
+  '/doanh-nghiep': typeof DoanhNghiepRoute
+  '/goc-nhin': typeof GocNhinRoute
+  '/ung-vien': typeof UngVienRoute
 }
 export interface FileRouteTypes {
   fileRoutesByFullPath: FileRoutesByFullPath
-  fullPaths: '/'
+  fullPaths: '/' | '/cau-chuyen' | '/doanh-nghiep' | '/goc-nhin' | '/ung-vien'
   fileRoutesByTo: FileRoutesByTo
-  to: '/'
-  id: '__root__' | '/'
+  to: '/' | '/cau-chuyen' | '/doanh-nghiep' | '/goc-nhin' | '/ung-vien'
+  id:
+    | '__root__'
+    | '/'
+    | '/cau-chuyen'
+    | '/doanh-nghiep'
+    | '/goc-nhin'
+    | '/ung-vien'
   fileRoutesById: FileRoutesById
 }
 export interface RootRouteChildren {
   IndexRoute: typeof IndexRoute
+  CauChuyenRoute: typeof CauChuyenRoute
+  DoanhNghiepRoute: typeof DoanhNghiepRoute
+  GocNhinRoute: typeof GocNhinRoute
+  UngVienRoute: typeof UngVienRoute
 }
 
 declare module '@tanstack/react-router' {
   interface FileRoutesByPath {
+    '/ung-vien': {
+      id: '/ung-vien'
+      path: '/ung-vien'
+      fullPath: '/ung-vien'
+      preLoaderRoute: typeof UngVienRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/goc-nhin': {
+      id: '/goc-nhin'
+      path: '/goc-nhin'
+      fullPath: '/goc-nhin'
+      preLoaderRoute: typeof GocNhinRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/doanh-nghiep': {
+      id: '/doanh-nghiep'
+      path: '/doanh-nghiep'
+      fullPath: '/doanh-nghiep'
+      preLoaderRoute: typeof DoanhNghiepRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/cau-chuyen': {
+      id: '/cau-chuyen'
+      path: '/cau-chuyen'
+      fullPath: '/cau-chuyen'
+      preLoaderRoute: typeof CauChuyenRouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/': {
       id: '/'
       path: '/'
@@ -53,6 +127,10 @@ declare module '@tanstack/react-router' {
 
 const rootRouteChildren: RootRouteChildren = {
   IndexRoute: IndexRoute,
+  CauChuyenRoute: CauChuyenRoute,
+  DoanhNghiepRoute: DoanhNghiepRoute,
+  GocNhinRoute: GocNhinRoute,
+  UngVienRoute: UngVienRoute,
 }
 export const routeTree = rootRouteImport
   ._addFileChildren(rootRouteChildren)

@@ -42,7 +42,7 @@ export function SiteHeader() {
           className="font-display text-2xl tracking-[0.3em] text-ivory hover:text-gold transition-colors"
           onClick={() => setOpen(false)}
         >
-          HÒAnn
+          HÒAn
         </Link>
 
         <nav className="hidden lg:flex items-center gap-10">
